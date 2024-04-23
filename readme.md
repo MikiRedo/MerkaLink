@@ -78,7 +78,7 @@ Debido a que no tenia bien seteado el tema de los tokens, no he podido hacer el 
 9: Investigamos un poco sobre el porque es interesante realizar un despliegue distribuido. Las principales ventajas de este són la escalabilidad (ya que puedes seguir agregando nodos y puedes mantener un mayor número de transacciones) y la seguridad (ya que si un nodo falla o recibe ataques otros nodos pueden seguir en marcha). Aspectos como la resilencia o la eficiencia también se ven mejorados, ya que un mayor número de nodos activos permite una mayor adaptación a los diferentes ataques o errores que puedan surgir.
 
 Fuentes: 
-Stackoverflow, 
+
 https://chat.openai.com/, 
 https://hyperledger-fabric.readthedocs.io/
 
