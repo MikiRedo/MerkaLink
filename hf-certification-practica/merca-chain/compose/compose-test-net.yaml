@@ -66,7 +66,7 @@ services:
       service: hyperledger-fabric
     environment:
       - FABRIC_CFG_PATH=/etc/hyperledger/peercfg
-      - FABRIC_LOGGING_SPEC=warning:msp,gossip=warning:chaincode=info
+      - FABRIC_LOGGING_SPEC=debug:msp,gossip=warning:chaincode=info
       - FABRIC_LOGGING_FORMAT="%{message}%{color}[%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset}%{time:2006-01-02 15:04:05.000 MST}"
       - CORE_PEER_TLS_ENABLED=true
       - CORE_PEER_PROFILE_ENABLED=false
@@ -105,7 +105,7 @@ services:
       service: hyperledger-fabric
     environment:
       - FABRIC_CFG_PATH=/etc/hyperledger/peercfg
-      - FABRIC_LOGGING_SPEC=warning:msp,gossip=warning:chaincode=info
+      - FABRIC_LOGGING_SPEC=debug:msp,gossip=warning:chaincode=info
       - FABRIC_LOGGING_FORMAT="%{message}%{color}[%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset}%{time:2006-01-02 15:04:05.000 MST}"
       - CORE_PEER_TLS_ENABLED=true
       - CORE_PEER_PROFILE_ENABLED=false
